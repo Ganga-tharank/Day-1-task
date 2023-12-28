@@ -1,0 +1,49 @@
+HTTP1.1
+1. Protocol Standard: HTTP/1.1 is a widely used protocol for transferring hypertext over the internet and forms the basis of data communication on the World Wide Web.
+
+2.Persistent Connections: HTTP/1.1 introduced persistent connections, allowing multiple requests and responses to be sent over a single connection, reducing latency.
+
+3.Request Pipelining: It supports request pipelining, enabling multiple requests to be sent without waiting for each response, improving overall efficiency.
+
+4.Host Header: HTTP/1.1 introduced the Host header, enabling multiple domains to be hosted on a single IP address, facilitating virtual hosting.
+
+5.Chunked Transfer Encoding: It supports chunked transfer encoding, allowing the server to send data in chunks, which is useful for dynamic content or large files.
+
+6.Caching: HTTP/1.1 introduced more sophisticated caching mechanisms, reducing the need to re-fetch unchanged resources, improving performance.
+
+7.Range Requests: Clients can request specific portions of a resource using range requests, which is useful for resuming interrupted downloads or streaming media.
+
+8.Compression: It supports content compression, reducing the amount of data transferred between the client and server, improving performance.
+
+9.Status Codes: HTTP/1.1 includes a comprehensive set of status codes, indicating the outcome of a request (e.g., 200 OK, 404 Not Found), aiding in error handling.
+
+10.Backward Compatibility: While introducing new features, HTTP/1.1 maintains backward compatibility with HTTP/1.0, ensuring a smooth transition and coexistence of both versions.
+
+HTTP 2
+1.Binary Protocol: HTTP/2 uses a binary framing layer instead of the text-based protocol of HTTP/1.1, reducing overhead and improving efficiency.
+
+2.Multiplexing: It supports multiplexing, allowing multiple requests and responses to be sent concurrently over a single connection, addressing the head-of-line blocking issue.
+
+3.Header Compression: HTTP/2 uses header compression techniques (HPACK) to reduce the overhead of repeated header fields, enhancing performance.
+
+4.Stream Prioritization: It introduces stream prioritization, enabling the assignment of priority levels to different streams, optimizing the order in which resources are delivered.
+
+5.Server Push: HTTP/2 allows servers to push content to clients before the client requests it, reducing latency and optimizing resource loading.
+
+6.Dependency Handling: It includes dependencies between different resources, ensuring a more efficient allocation of resources and reducing unnecessary delays.
+
+7.Flow Control: HTTP/2 features flow control mechanisms at the stream and connection levels, preventing congestion and improving overall performance.
+
+8.Security: While not a direct feature, the move to HTTP/2 is often associated with the use of TLS (HTTPS), enhancing security and privacy.
+
+9.Backward Compatibility: HTTP/2 is designed to be backward-compatible with HTTP/1.1, allowing existing websites and applications to transition gradually.
+
+10.Improved Performance: Overall, HTTP/2 is designed to significantly improve web page load times and performance, making it a crucial advancement for modern web communication.
+
+
+
+
+
+
+
+
